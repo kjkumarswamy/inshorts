@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "http://localhost:5050";
+const URL = "https://inshorts-mern-app.herokuapp.com/";
 
 export const getNews = async (page, size = 5) => {
   try {
