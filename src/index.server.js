@@ -15,7 +15,7 @@ const PORT = process.env.PORT;
 
 app.use(express.json());
 app.use(cors());
-app.use("/", newsRouter);
+app.use("/api", newsRouter);
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "../client/build")));

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "https://inshorts-mern-app.herokuapp.com/";
+const URL = "https://inshorts-mern-app.herokuapp.com/api";
 
 export const getNews = async (page, size = 5) => {
   try {
